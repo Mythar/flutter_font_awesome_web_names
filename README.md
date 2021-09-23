@@ -14,7 +14,10 @@ In the `dependencies:` section of your `pubspec.yaml`, add the following line:
 
 ```yaml
 dependencies:
-  flutter_font_awesome: <latest_version>
+  flutter_font_awesome:
+    git:
+      url: https://github.com/Mythar/flutter_font_awesome
+      ref: master
 ```
 
 ## Usage
