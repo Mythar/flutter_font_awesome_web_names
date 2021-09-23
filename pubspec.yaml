@@ -2,7 +2,7 @@ name: flutter_font_awesome
 description: The Font Awesome Icon pack available to Flutter
 maintainer: Peter Slotø
 homepage: https://github.com/Mythar/flutter_font_awesome
-version: 0.0.2
+version: 0.0.3
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
