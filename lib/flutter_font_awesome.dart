@@ -88,6 +88,8 @@ List<String> searchFontAwesomeIcons({String? text, FaSearchFilter searchFilter =
 }
 
 // FaIcon
+// Based on the font_awesome_flutter by @michaelspiss
+// This new FaIcon is custom made for this package
 class FaIcon extends StatelessWidget {
   final String? name;
   final double? size;
@@ -216,6 +218,7 @@ class FaIcon extends StatelessWidget {
   }
 }
 
+// FontAwesomeIcons
 class FontAwesomeIcons {
   static const Map icons = {
     "fab fa-500px": 0xf26e,
