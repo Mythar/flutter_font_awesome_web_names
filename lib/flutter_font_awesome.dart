@@ -122,6 +122,7 @@ class FaIcon extends StatelessWidget {
           color: c,
           fontSize: s,
           fontFamily: fontFamily,
+          package: 'flutter_font_awesome'
         ),
       ),
     );
