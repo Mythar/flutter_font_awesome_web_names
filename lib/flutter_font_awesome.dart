@@ -1,4 +1,4 @@
-library flutter_font_awesome;
+library flutter_font_awesome_web_names;
 
 // Font Awesome 5.15.3 free version
 import 'package:flutter/widgets.dart';
@@ -124,7 +124,7 @@ class FaIcon extends StatelessWidget {
           color: c,
           fontSize: s,
           fontFamily: fontFamily,
-          package: 'flutter_font_awesome'
+          package: 'flutter_font_awesome_web_names'
         ),
       ),
     );
