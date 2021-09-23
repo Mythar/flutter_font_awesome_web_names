@@ -1,6 +1,8 @@
 # flutter_font_awesome
 
-flutter_font_awesome
+The flutter_font_awesome package is developed to support [Font Awesome](https://fontawesome.com/icons) web icons names.  
+
+The [Font Awesome](https://fontawesome.com/icons) Icon pack available as set of Flutter Icons.
 
 Based on Font Awesome 5.15.3. Includes all free icons:
 
