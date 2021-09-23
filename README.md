@@ -18,7 +18,7 @@ In the `dependencies:` section of your `pubspec.yaml`, add the following line:
 dependencies:
   flutter_font_awesome:
     git:
-      url: https://github.com/Mythar/flutter_font_awesome
+      url: https://github.com/Mythar/flutter_font_awesome_web_names
       ref: master
 ```
 
