@@ -1,6 +1,6 @@
 # flutter_font_awesome_web_names
 
-The flutter_font_awesome_web_names package is developed to support [Font Awesome](https://fontawesome.com/icons) web icons names.  
+The flutter_font_awesome_web_names package is developed to support [Font Awesome](https://fontawesome.com/icons) web icon names.  
 
 The [Font Awesome](https://fontawesome.com/icons) Icon pack available as set of Flutter Icons.
 
