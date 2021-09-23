@@ -4,6 +4,7 @@ library flutter_font_awesome;
 import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart';
 
+// FaIconData
 class FaIconData {
   String? name;
   int? codePoint;
@@ -51,26 +52,32 @@ class FaIconData {
   }
 }
 
+// FaSearchFilter
 enum FaSearchFilter {
   contains,
   startsWith
 }
 
-List<String> searchFontAwesomeIcons({String? text, FaSearchFilter searchFilter = FaSearchFilter.contains}) {
+// searchFontAwesomeIcons
+List<String> searchFontAwesomeIcons({String? text, FaSearchFilter searchFilter = FaSearchFilter.contains, int maxResults = 0}) {
   List<String> l = [];
 
   if ((text != null) && (text != '')) {
     text = text.toLowerCase();
-    for (String key in FontAwesomeIcons.icons.keys) {
+    for (String key in FontAwesomeIcons.icons.keys.toList()) {
       switch (searchFilter) {
         case FaSearchFilter.contains:
           if (key.contains(text)) {
-            l.add(key);
+            if ((maxResults == 0) || (l.length < maxResults)) {
+              l.add(key);
+            }
           }
           break;
         case FaSearchFilter.startsWith:
           if (key.startsWith(text)) {
-            l.add(key);
+            if ((maxResults == 0) || (l.length < maxResults)) {
+              l.add(key);
+            }
           }
           break;
       }
@@ -80,6 +87,7 @@ List<String> searchFontAwesomeIcons({String? text, FaSearchFilter searchFilter =
   return l;
 }
 
+// FaIcon
 class FaIcon extends StatelessWidget {
   final String? name;
   final double? size;
