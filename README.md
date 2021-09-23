@@ -29,10 +29,35 @@ import 'package:flutter_font_awesome_web_names/flutter_font_awesome.dart';
 
 class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
-    return IconButton(
-      icon: FaIcon('fas fa-gamepad'),
-      onPressed: () { print("Pressed"); }
-     );
+    return Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            FaIcon('fab fa-500px', size: 50),
+            FaIcon('fab fa-twitter', size: 50),
+            FaIcon('fab fa-facebook', size: 50),
+            FaIcon('fab fa-instagram', size: 50),
+            Container(
+              width: 50,
+              height: 50,
+              child: FaIcon(
+                'fas fa-square-full',
+                alignToParent: true,
+                size: 50,
+                child: Container(
+                  margin: EdgeInsets.only(left: 4, top: 4),
+                  child: FaIcon(
+                    'fas fa-cat',
+                    size: 40,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
   }
 }
 ```
