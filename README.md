@@ -62,6 +62,12 @@ class MyWidget extends StatelessWidget {
 }
 ```
 
+## Screenshot
+
+<p align="center">
+    <img src="https://github.com/Mythar/flutter_font_awesome_web_names/blob/master/Screenshot_1632406672.png" width=540" height="960"/>
+</p>
+
 ## Search icons
 
 ```
@@ -94,12 +100,6 @@ Result:
 
 
 ```
-
-## Screenshot
-
-<p align="center">
-    <img src="https://github.com/Mythar/flutter_font_awesome_web_names/blob/master/Screenshot_1632406672.png" width=540" height="960"/>
-</p>
 
 ## Getting Started
 
