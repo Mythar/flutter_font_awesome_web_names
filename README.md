@@ -1,6 +1,6 @@
-# flutter_font_awesome
+# flutter_font_awesome_web_names
 
-The flutter_font_awesome package is developed to support [Font Awesome](https://fontawesome.com/icons) web icons names.  
+The flutter_font_awesome_web_names package is developed to support [Font Awesome](https://fontawesome.com/icons) web icons names.  
 
 The [Font Awesome](https://fontawesome.com/icons) Icon pack available as set of Flutter Icons.
 
@@ -25,7 +25,7 @@ dependencies:
 ## Usage
 
 ```dart
-import 'package:flutter_font_awesome/flutter_font_awesome.dart';
+import 'package:flutter_font_awesome_web_names/flutter_font_awesome.dart';
 
 class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
