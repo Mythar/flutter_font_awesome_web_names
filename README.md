@@ -62,6 +62,39 @@ class MyWidget extends StatelessWidget {
 }
 ```
 
+## Search icons
+
+```
+
+List<String> icons = searchFontAwesomeIcons(text: 'fas', searchFilter: FaSearchFilter.startsWith, maxResults: 20);
+
+Result:
+[
+ fas fa-ad, 
+ fas fa-address-book, 
+ fas fa-address-card, 
+ fas fa-adjust, 
+ fas fa-air-freshener, 
+ fas fa-align-center, 
+ fas fa-align-justify, 
+ fas fa-align-left, 
+ fas fa-align-right, 
+ fas fa-allergies, 
+ fas fa-ambulance, 
+ fas fa-american-sign-language-interpreting, 
+ fas fa-anchor, 
+ fas fa-angle-double-down, 
+ fas fa-angle-double-left, 
+ fas fa-angle-double-right, 
+ fas fa-angle-double-up, 
+ fas fa-angle-down, 
+ fas fa-angle-left, 
+ fas fa-angle-right
+]
+
+
+```
+
 ## Screenshot
 
 <p align="center">
