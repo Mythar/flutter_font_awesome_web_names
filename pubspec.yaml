@@ -1,21 +1,19 @@
-name: flutter_font_awesome
+name: flutter_font_awesome_web_names
 description: The Font Awesome Icon pack available to Flutter
 maintainer: Peter Slotø
-homepage: https://github.com/Mythar/flutter_font_awesome
-version: 0.0.1
+homepage: https://github.com/Mythar/flutter_font_awesome_web_names
+version: 2.0.0
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: '>=3.6.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
 
 dev_dependencies:
-  recase: ^4.0.0
   flutter_test:
     sdk: flutter
-  version: ^2.0.0
 
 flutter:
   fonts:
@@ -31,19 +29,60 @@ flutter:
       fonts:
         - asset: lib/fonts/fa-solid-900.ttf
           weight: 900
-# Uncomment the following lines to support pro icons
-#    - family: FontAwesomeLight
-#      fonts:
-#        - asset: lib/fonts/fa-light-300.ttf
-#          weight: 300
-# Leave commented out if you don't own duotone icons
-#    - family: FontAwesomeDuotone
-#      fonts:
-#        - asset: lib/fonts/fa-duotone-900.ttf
-#          weight: 900
-# Thin style is available in font awesome pro 6 and beyond
-# Leave commented out if you don't own version 6
-#    - family: FontAwesomeThin
-#      fonts:
-#        - asset: lib/fonts/fa-thin-100.ttf
-#          weight: 100
+    # Uncomment the following lines to support pro icons
+    #- family: FontAwesomeLight
+    #  fonts:
+    #    - asset: lib/fonts/fa-light-300.ttf
+    #      weight: 300
+    #- family: FontAwesomeThin
+    #  fonts:
+    #    - asset: lib/fonts/fa-thin-100.ttf
+    #      weight: 100
+    #- family: FontAwesomeDuotoneRegular
+    #  fonts:
+    #    - asset: lib/fonts/fa-duotone-regular-400.ttf
+    #      weight: 400
+    #- family: FontAwesomeDuotoneLight
+    #  fonts:
+    #    - asset: lib/fonts/fa-duotone-light-300.ttf
+    #      weight: 300
+    #- family: FontAwesomeDuotoneThin
+    #  fonts:
+    #    - asset: lib/fonts/fa-duotone-thin-100.ttf
+    #      weight: 100
+    #- family: FontAwesomeDuotoneSolid
+    #  fonts:
+    #    - asset: lib/fonts/fa-duotone-900.ttf
+    #      weight: 900
+    #- family: FontAwesomeSharpRegular
+    #  fonts:
+    #    - asset: lib/fonts/fa-sharp-regular-400.ttf
+    #      weight: 400
+    #- family: FontAwesomeSharpLight
+    #  fonts:
+    #    - asset: lib/fonts/fa-sharp-light-300.ttf
+    #      weight: 300
+    #- family: FontAwesomeSharpThin
+    #  fonts:
+    #    - asset: lib/fonts/fa-sharp-thin-100.ttf
+    #      weight: 100
+    #- family: FontAwesomeSharpSolid
+    #  fonts:
+    #    - asset: lib/fonts/fa-sharp-solid-900.ttf
+    #      weight: 900
+    #- family: FontAwesomeSharpDuotoneRegular
+    #  fonts:
+    #    - asset: lib/fonts/fa-sharp-duotone-regular-400.ttf
+    #      weight: 400
+    #- family: FontAwesomeSharpDuotoneLight
+    #  fonts:
+    #    - asset: lib/fonts/fa-sharp-duotone-light-300.ttf
+    #      weight: 300
+    #- family: FontAwesomeSharpDuotoneThin
+    #  fonts:
+    #    - asset: lib/fonts/fa-sharp-duotone-thin-100.ttf
+    #      weight: 100
+    #- family: FontAwesomeSharpDuotoneSolid
+    #  fonts:
+    #    - asset: lib/fonts/fa-sharp-duotone-solid-900.ttf
+    #      weight: 900
