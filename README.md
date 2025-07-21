@@ -39,10 +39,10 @@ class FADemoWidget extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          const AGFaIcon('fa-brands fa-500px', size: 50),
-          const AGFaIcon('fab fa-twitter', size: 50),
-          const AGFaIcon('fab fa-facebook', size: 50),
-          const AGFaIcon('fa-sharp-duotone fa-solid fa-user-doctor-hair', size: 50),
+          const FaIcon('fa-brands fa-500px', size: 50),
+          const FaIcon('fab fa-twitter', size: 50),
+          const FaIcon('fab fa-facebook', size: 50),
+          const FaIcon('fa-sharp-duotone fa-solid fa-user-doctor-hair', size: 50),
           SizedBox(
             width: 50,
             height: 50,
@@ -52,7 +52,7 @@ class FADemoWidget extends StatelessWidget {
               size: 50,
               child: Container(
                 margin: const EdgeInsets.only(left: 4, top: 4),
-                child: const AGFaIcon(
+                child: const FaIcon(
                   'fa-duotone fa-light fa-cat',
                   size: 40,
                   color: Colors.white,
