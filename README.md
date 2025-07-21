@@ -80,9 +80,9 @@ This library fully supports duotone icons.
 
 ## Examples:
 
-"fa-brands fa-500px" (short names also supported) ~ "fab fa-500px"
-"fa-sharp-duotone fa-solid fa-user-doctor-hair" ~ "fasds fa-user-doctor-hair"
-"fa-duotone fa-light fa-cat" ~ "fadl fa-user-doctor-hair"
+* "fa-brands fa-500px" (short names also supported) ~ "fab fa-500px"
+* "fa-sharp-duotone fa-solid fa-user-doctor-hair" ~ "fasds fa-user-doctor-hair"
+* "fa-duotone fa-light fa-cat" ~ "fadl fa-user-doctor-hair"
 
 ## Getting Started
 
