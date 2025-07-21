@@ -46,7 +46,7 @@ class FADemoWidget extends StatelessWidget {
           SizedBox(
             width: 50,
             height: 50,
-            child: AGFaIcon(
+            child: FaIcon(
               'fas fa-square-full',
               alignment: Alignment.center,
               size: 50,
